@@ -7,26 +7,40 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.coderamg.ui.home.HomeFragment"
+        android:name="com.example.coderamg.ui.Trak.TrackFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_track" />
 
 
     <fragment
         android:id="@+id/bottom_home"
-        android:name="com.example.coderamg.ui.home.HomeFragment"
+        android:name="com.example.coderamg.ui.Trak.TrackFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_track" />
 
     <fragment
-        android:id="@+id/bottom_dashboard"
-        android:name="com.example.coderamg.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/bottom_artical"
+        android:name="com.example.coderamg.ui.Artical.ArticalFragment"
+        android:label="@string/title_artical"
+        tools:layout="@layout/fragment_artical" />
 
     <fragment
-        android:id="@+id/bottom_notifications"
-        android:name="com.example.coderamg.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/bottom_book"
+        android:name="com.example.coderamg.ui.Book.BookFragment"
+        android:label="@string/title_book"
+        tools:layout="@layout/fragment_book" />
+
+    <fragment
+        android:id="@+id/bottom_program_languages"
+        android:name="com.example.coderamg.ui.ProgramLanug.LanguesFragment"
+        android:label="@string/programming_languages"
+        tools:layout="@layout/fragment_langues" />
+
+
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.example.coderamg.ui.Chat.ChatFragment"
+        android:label="@string/chat"
+        tools:layout="@layout/fragment_chat" />
+
 </navigation>

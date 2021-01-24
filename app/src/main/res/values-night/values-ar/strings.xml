@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">وقت الدواء</string>
+    <string name="title_medicine_name">اسم الدواء</string>
+    <string name="hint_enter_med_name">ادخل اسم الدواء</string>
+    <string name="medicine_days">ايام اخد الدواء</string>
+    <string name="title_treatment_deadline">الموعد النهائي للعلاج</string>
+    <string name="title_continuous_use">الاستخدام المستمر</string>
+    <string name="title_reminder">تذكير</string>
+    <string name="new_medicine">دواء جديد</string>
+    <string name="every_day">كل يوم</string>
+    <string name="no_medicine_added">لا يوجد دواء</string>
+    <string name="loading_tasks_error">خطأ أثناء تحميل منبهات الدواء</string>
+    <string name="successfully_saved_me_message">تمت إضافة الدواء بنجاح</string>
+    <string name="successfully_deleted_message">تم حذف الدواء بنجاح</string>
+    <string name="reminder_message">حان الوقت لتناول دوائك</string>
+    <string name="ignored">تجاهل</string>
+    <string name="taken">تؤخذ</string>
+    <string name="all">الكل</string>
+    <string name="menu_filter">فلتر</string>
+    <string name="all_label">جميع الأدوية</string>
+    <string name="ignore_label">الأدوية التي تم تجاهلها</string>
+    <string name="taken_label">أخذ الدواء</string>
+    <string name="no_history">لم يتم العثور على تاريخ</string>
+    <string name="no_taken_med_history">لم تتناول أي دواء</string>
+    <string name="no_ignored_history">أحسنت</string>
+    <string name="menu_stats">تقرير شهري</string>
+</resources>

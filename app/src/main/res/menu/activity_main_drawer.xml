@@ -8,7 +8,10 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/menu_home" />
-
+        <item
+            android:id="@+id/list_task"
+            android:icon="@drawable/ic_task"
+            android:title="@string/list_of_tasks" />
     </group>
 
     <item android:title="Communicate">
@@ -21,6 +24,11 @@
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/menu_send" />
+            <item
+                android:id="@+id/stars"
+                android:icon="@drawable/stars"
+                android:title="@string/rate_the_app"/>
+
         </menu>
     </item>
 

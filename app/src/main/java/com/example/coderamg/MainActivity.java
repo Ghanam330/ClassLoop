@@ -1,9 +1,9 @@
 package com.example.coderamg;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +16,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.coderamg.ui.Task.TaskActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -58,9 +59,10 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home,
-                //  R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_tools,
-                  R.id.nav_share, R.id.nav_send,
-                R.id.bottom_home, R.id.bottom_dashboard, R.id.bottom_notifications)
+                R.id.nav_share, R.id.nav_send,
+                R.id.bottom_home, R.id.bottom_book, R.id.bottom_artical
+                , R.id.bottom_program_languages
+       ,R.id.chat,R.id.list_task)
                 .setDrawerLayout(drawer)
                 .build();
         navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -76,8 +78,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.nav_share:
-                        Toast.makeText(MainActivity.this, "share", Toast.LENGTH_SHORT).show();
+                    case R.id.list_task:
+                        Intent intent1=new Intent(MainActivity.this, TaskActivity.class);
+                        startActivity(intent1);
+
                         break;
                 }
                 drawer.closeDrawer(GravityCompat.START);
