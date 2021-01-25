@@ -7,39 +7,39 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.coderamg.ui.Trak.TrackFragment"
+        android:name="com.example.coderamg.Fragment.TrackFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_track" />
 
 
     <fragment
         android:id="@+id/bottom_home"
-        android:name="com.example.coderamg.ui.Trak.TrackFragment"
+        android:name="com.example.coderamg.Fragment.TrackFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_track" />
 
     <fragment
         android:id="@+id/bottom_artical"
-        android:name="com.example.coderamg.ui.Artical.ArticalFragment"
+        android:name="com.example.coderamg.Fragment.ArticalFragment"
         android:label="@string/title_artical"
         tools:layout="@layout/fragment_artical" />
 
     <fragment
         android:id="@+id/bottom_book"
-        android:name="com.example.coderamg.ui.Book.BookFragment"
+        android:name="com.example.coderamg.Fragment.BookFragment"
         android:label="@string/title_book"
         tools:layout="@layout/fragment_book" />
 
     <fragment
         android:id="@+id/bottom_program_languages"
-        android:name="com.example.coderamg.ui.ProgramLanug.LanguesFragment"
+        android:name="com.example.coderamg.Fragment.LanguesFragment"
         android:label="@string/programming_languages"
         tools:layout="@layout/fragment_langues" />
 
 
     <fragment
         android:id="@+id/chat"
-        android:name="com.example.coderamg.ui.Chat.ChatFragment"
+        android:name="com.example.coderamg.Fragment.ChatFragment"
         android:label="@string/chat"
         tools:layout="@layout/fragment_chat" />
 

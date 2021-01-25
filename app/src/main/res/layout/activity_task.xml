@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Task.TaskActivity">
+    tools:context=".Activity.TaskActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"/>
     <RelativeLayout
-        android:id="@+id/emty_view"
+        android:id="@+id/empty_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
@@ -34,6 +34,7 @@
             android:gravity="center"
             android:src="@drawable/ic_baseline_pending_actions_24"/>
         <TextView
+            android:id="@+id/reminderText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/image_trask"
@@ -42,8 +43,8 @@
             android:text="Click on the button below begin creating your reminder"/>
 
     </RelativeLayout>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_addreminder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
