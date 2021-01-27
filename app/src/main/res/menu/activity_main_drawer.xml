@@ -12,6 +12,8 @@
             android:id="@+id/list_task"
             android:icon="@drawable/ic_task"
             android:title="@string/list_of_tasks" />
+      
+
     </group>
 
     <item android:title="Communicate">

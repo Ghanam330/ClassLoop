@@ -37,10 +37,5 @@
         tools:layout="@layout/fragment_langues" />
 
 
-    <fragment
-        android:id="@+id/chat"
-        android:name="com.example.coderamg.Fragment.ChatFragment"
-        android:label="@string/chat"
-        tools:layout="@layout/fragment_chat" />
 
 </navigation>

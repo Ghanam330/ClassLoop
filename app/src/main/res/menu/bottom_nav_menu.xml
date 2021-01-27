@@ -6,6 +6,10 @@
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home" />
     <item
+        android:id="@+id/bottom_program_languages"
+        android:icon="@drawable/program_langues"
+        android:title="@string/programming_languages" />
+    <item
         android:id="@+id/bottom_book"
         android:icon="@drawable/ic_book_24"
         android:title="@string/title_book" />
@@ -14,14 +18,4 @@
         android:id="@+id/bottom_artical"
         android:icon="@drawable/ic_artical"
         android:title="@string/title_artical" />
-    <item
-        android:id="@+id/bottom_program_languages"
-        android:icon="@drawable/program_langues"
-        android:title="@string/programming_languages" />
-    <item
-        android:id="@+id/chat"
-        android:icon="@drawable/chat"
-        android:title="@string/chat" />
-
-
 </menu>

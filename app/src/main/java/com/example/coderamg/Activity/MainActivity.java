@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_share, R.id.nav_send,
                 R.id.bottom_home, R.id.bottom_book, R.id.bottom_artical
                 , R.id.bottom_program_languages
-       ,R.id.chat,R.id.list_task)
+       ,R.id.list_task)
                 .setDrawerLayout(drawer)
                 .build();
         navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.list_task:
                         Intent intent1=new Intent(MainActivity.this, TaskActivity.class);
                         startActivity(intent1);
-
                         break;
                 }
                 drawer.closeDrawer(GravityCompat.START);

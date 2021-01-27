@@ -14,6 +14,7 @@ import com.example.coderamg.R;
 
 public class TrackFragment extends Fragment {
 
+
     public TrackFragment() {
     }
 
@@ -27,5 +28,4 @@ public class TrackFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
     }
-
 }
