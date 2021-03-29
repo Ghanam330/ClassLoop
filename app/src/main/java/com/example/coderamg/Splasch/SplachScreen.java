@@ -14,7 +14,7 @@ import com.example.coderamg.R;
 public class SplachScreen extends AppCompatActivity {
 LottieAnimationView lottieAnimationView;
     SharedPreferences onBoardingScreen;
-    private static int SPLASH_TIMER=5000;
+    private static int SPLASH_TIMER=10000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

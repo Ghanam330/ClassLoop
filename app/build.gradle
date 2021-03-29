@@ -48,12 +48,12 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:20.0.2'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.multidex:multidex:2.0.1"
-    testImplementation 'junit:junit:4.+'
+    testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     // Anamation Lottio
     implementation "com.airbnb.android:lottie:3.6.0"
-    implementation 'com.jakewharton:butterknife:10.2.1'
+    implementation 'com.jakewharton:butterknife:10.2.3'
     implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
     implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
     implementation 'com.github.kk121:File-Loader:1.2'

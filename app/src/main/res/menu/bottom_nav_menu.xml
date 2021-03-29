@@ -10,12 +10,13 @@
         android:icon="@drawable/program_langues"
         android:title="@string/programming_languages" />
     <item
+        android:id="@+id/bottom_artical"
+        android:icon="@drawable/ic_artical"
+        android:title="@string/title_artical" />
+    <item
         android:id="@+id/bottom_book"
         android:icon="@drawable/ic_book_24"
         android:title="@string/title_book" />
 
-    <item
-        android:id="@+id/bottom_artical"
-        android:icon="@drawable/ic_artical"
-        android:title="@string/title_artical" />
+
 </menu>
